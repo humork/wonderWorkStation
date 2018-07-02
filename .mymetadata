@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="CarManagerzk"
+  id="myeclipse.1501669099123"
+  context-root="/CarManagerzk"
+  j2ee-spec="6.0"
+  archive="CarManagerzk.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

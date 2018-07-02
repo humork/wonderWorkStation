@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:tx="http://www.springframework.org/schema/tx"
+     xmlns:context="http://www.springframework.org/schema/context"
+     xsi:schemaLocation="
+     http://www.springframework.org/schema/beans 
+     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+     http://www.springframework.org/schema/tx
+     http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+     http://www.springframework.org/schema/context
+     http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+    
+            
+	<!-- 添加注解支持 -->
+   <context:annotation-config /> 
+   <!--   添加注解扫描包 -->
+ 	<context:component-scan base-package="com.cc" /> 
+    <!-- 配置上传文件工具类 -->
+	<bean id="FileUtil" class="com.cc.util.FileUtil">
+		<property name="path" value="${path}"></property>
+	</bean>
+	
+	<!-- 上传专用 -->
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">  
+    	<property name="maxUploadSize" value="1048576087" />  
+	</bean>
+    
+    <!-- 导入外部数据库信息文件 -->
+    <context:property-placeholder location="classpath:db.properties"/>
+    <!-- 开启自动注入 
+    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
+    -->
+    
+	<bean id="dataSource"
+		class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName"
+			value="${driver}">
+		</property>
+		<property name="url"
+			value="${url}">
+		</property>
+		<property name="username" value="${username}"></property>
+		<property name="password" value="${password}"></property>
+	</bean>
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">
+					org.hibernate.dialect.Oracle9Dialect
+				</prop>
+				<prop key="hibernate.show_sql">
+				    true
+				</prop>  
+                <!-- 可以自动创建数据库表(create),不创建(none) -->  
+                <prop key="hibernate.hbm2ddl.auto">
+                  update
+                </prop> 
+			</props>
+		</property>
+		<!-- <property name="packagesToScan">
+			<list>
+				<value>com.cc.po</value>
+			</list>	
+		</property> -->
+		 <property name="annotatedClasses">
+			<list>
+				<value>com.cc.po.Users</value>
+				<value>com.cc.po.Dictionary</value>
+				<value>com.cc.po.Role</value>
+				<value>com.cc.po.Menu</value>
+				<value>com.cc.po.DrivingRec</value>
+				<value>com.cc.po.Driver</value>
+				<value>com.cc.po.CurrentUnit</value>
+				<value>com.cc.po.Car</value>
+				<value>com.cc.po.CarPic</value>
+				<value>com.cc.po.RefuelRec</value>
+				<value>com.cc.po.RepairRec</value>
+				<value>com.cc.po.FeesManager</value>
+				<value>com.cc.po.MaintainRec</value>
+				<value>com.cc.po.PeccancyRec</value>
+				<value>com.cc.po.AccidentRec</value>
+				<value>com.cc.po.InspectionRec</value>
+				<value>com.cc.po.InsuranceRec</value>
+				<value>com.cc.po.ViewExpiration</value>
+				<value>com.cc.po.ViewCostContrast</value>
+				<value>com.cc.po.ViewCostDistribution</value>
+			</list>
+		</property> 
+	</bean>
+	
+	<!--配置事务管理器 -->
+	<bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+	    <property name="sessionFactory">
+	       <ref bean="sessionFactory"/>
+	    </property>
+	</bean>
+	
+	<!-- 添加事务注解支持 -->
+	<tx:annotation-driven transaction-manager="transactionManager"/>	
+	
+	
+</beans>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

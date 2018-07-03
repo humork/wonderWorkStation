@@ -554,7 +554,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">事故说明：</td>
+					<td style="text-align: right;">事故说明：</td>
 					<td>
 						<input id="accExplain" name="accExplain" maxlength="200" />
 					</td>

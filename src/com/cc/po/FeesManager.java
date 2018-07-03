@@ -14,7 +14,10 @@ import javax.persistence.ManyToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.Transient;
-
+/**
+ * @Author ChenXiang
+ * @Date 2018/7/1,8:58
+ */
 //规费管理
 @Entity
 @Table(name="FEES_MANAGER")

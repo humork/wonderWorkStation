@@ -110,7 +110,6 @@ public class InspectionRec implements Serializable{
 		this.page = page;
 	}
 	@Transient
-	//获取行
 	public int getRows() {
 		return rows;
 	}

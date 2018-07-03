@@ -1,7 +1,7 @@
 <!--
 	User:wm
 	Date:2018/06/29
-	Function:user management
+	Function:add user management
 -->
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <jsp:include page="../../Inc.jsp"></jsp:include>

@@ -1,7 +1,7 @@
 <!--
     User:wm
     Date:2018/07/01
-    Function:modify passwd
+    Function:enable user reset passwd
 -->
 
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>

@@ -1,7 +1,7 @@
 <!--
 	User:wm
 	Date:2018/06/30
-	Add role management
+	Function:role management
 -->
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <jsp:include page="../../Inc.jsp"></jsp:include>

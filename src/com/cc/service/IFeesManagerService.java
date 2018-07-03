@@ -2,9 +2,10 @@ package com.cc.service;
 
 import com.cc.po.DataGrid;
 import com.cc.po.FeesManager;
-
-
-
+/**
+ * @Author ChenXiang
+ * @Date 2018/7/1,14:59
+ */
 public interface IFeesManagerService {
 	/***
 	 * 查询规费信息

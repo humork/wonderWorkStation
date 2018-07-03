@@ -14,7 +14,10 @@ import com.cc.po.DataGrid;
 import com.cc.po.FeesManager;
 import com.cc.service.IFeesManagerService;
 import com.cc.util.Page;
-
+/**
+ * @Author ChenXiang
+ * @Date 2018/7/1,15:05
+ */
 @Service("FeesManagerService")
 public class FeesManagerServiceimpl implements IFeesManagerService {
 	

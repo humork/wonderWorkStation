@@ -22,6 +22,10 @@ import com.cc.po.Role;
 import com.cc.po.Users;
 import com.cc.service.IEasyUITreeService;
 import com.cc.util.SysStr;
+/**
+ * @Author ChenXiang
+ * @Date 2018/7/1,15:16
+ */
 @Service("easyservice")
 public class EasyUITreeServiceimp implements IEasyUITreeService {
 	@Autowired

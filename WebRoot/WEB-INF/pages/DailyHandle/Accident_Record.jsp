@@ -530,25 +530,25 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<td></td>
 				</tr>
 				<tr>
-					<td style="text-align:rigth;">车牌号码：</td>
+					<td style="text-align:right;">车牌号码：</td>
 					<td>
 						<input type="text" id="car" name="car.id" disabled="disabled" />
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">驾&nbsp;驶&nbsp;员：</td>
+					<td style="text-align: right;">驾&nbsp;驶&nbsp;员：</td>
 					<td>
 						<input id="driver" name="driver.id"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">事故时间：</td>
+					<td style="text-align: right;">事故时间：</td>
 					<td>
 						<input type="text" id="accDate" name="accDate" class="easyui-datetimebox" required="required"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">事故地点：</td>
+					<td style="text-align: right;">事故地点：</td>
 					<td>
 						<input id="accPlace" name="accPlace" maxlength="100" />
 					</td>

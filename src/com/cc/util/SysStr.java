@@ -3,7 +3,7 @@ package com.cc.util;
 //公用提示[简体中文]
 public class SysStr {
 	// 树菜单最子节点主键的长度
-	public final static int maxlen = 5;
+	public final static int maxlen = 6;
 
 	// 系统管理员登录名
 	public final static String admin = "admin";

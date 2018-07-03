@@ -7,9 +7,10 @@ import java.util.Set;
 import com.cc.po.Menu;
 import com.cc.po.PageMenu;
 import com.cc.po.Users;
-	/**
-	 * 张坤
-	 */
+/**
+ * @Author ChenXiang
+ * @Date 2018/7/1,15:08
+ */
 public interface IEasyUITreeService {
 	/**
 	 * 获取对应节点的树节点

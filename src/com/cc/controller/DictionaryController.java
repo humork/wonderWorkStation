@@ -1,4 +1,4 @@
-package com.cc.controller;
+﻿package com.cc.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -25,7 +25,7 @@ public class DictionaryController {
 		return JsonUtil.writeJson(idic.findDicDGByPid(dic));
 	}
 		
-	//根据pid查询所有pid=id的对象
+	//根据pid查询所有pid=id的对象，返回给web端。
 	@RequestMapping(value="/findDicAll",produces="text/html;charset=utf-8")
 	@ResponseBody
 	public String findDicAll(Dictionary dic){

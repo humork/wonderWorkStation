@@ -13,7 +13,10 @@ import javax.persistence.ManyToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.Transient;
-
+/**
+ * @Author ChenXiang
+ * @Date 2018/7/1,9:02
+ */
 //出车记录表
 @Entity
 @Table(name="DRIVING_RECORD")

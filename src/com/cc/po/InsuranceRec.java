@@ -30,7 +30,7 @@ public class InsuranceRec implements Serializable{
 	private Driver operator;//多对一
 	private String remarks;
 	
-	//分页专用
+	//分页专用页数和总数
 	private int page;
 	private int rows;
 	

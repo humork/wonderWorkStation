@@ -15,7 +15,7 @@ import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
-//保养记录
+//保养记录表
 @Entity
 @Table(name="maintain_record")
 public class MaintainRec implements Serializable{

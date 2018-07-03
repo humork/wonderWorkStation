@@ -14,7 +14,10 @@ import com.cc.po.DataGrid;
 import com.cc.po.InspectionRec;
 import com.cc.service.IInspectionRecService;
 import com.cc.util.Page;
-
+/**
+ * @Author ChenXiang
+ * @Date 2018/7/1,15:20
+ */
 //年检
 @Service("InspectionRecService")
 public class InspectionRecServiceImpl implements IInspectionRecService{

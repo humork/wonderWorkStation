@@ -20,6 +20,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		
 		/* 上传按钮布局展示样式 */
 		#upTab td{border: 1px solid black;}
+
+		 td{
+			 text-align: right;
+		 }
+
     </style>
     <script type="text/javascript">
     	$(function(){

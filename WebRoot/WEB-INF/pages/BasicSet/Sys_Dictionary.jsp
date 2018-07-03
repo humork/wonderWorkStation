@@ -11,6 +11,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <base href="<%=basePath%>">
     
     <title></title>
+	  <style>
+		  td{
+			  text-align: right;
+		  }
+	  </style>
 	<script type="text/javascript">
 		$(function(){
 			//大分类列表选择事件,注意：此事件要先于select方法执行.

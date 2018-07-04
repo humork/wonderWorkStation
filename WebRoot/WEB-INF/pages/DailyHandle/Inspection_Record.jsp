@@ -363,13 +363,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<tr>
 					<td style="text-align: rigth;">经&nbsp;办&nbsp;人：</td>
 					<td>
-						<input id="operator" name="operator.id"/>
+						<input id="operators" name="operator.id"/>
 					</td>
 				</tr>	
 				<tr>
 					<td style="text-align: rigth;">年检备注：</td>
 					<td>
-						<input type="text" id="remarks" name="remarks" maxlength="100"/>
+						<input type="text" id="remark" name="remarks" maxlength="100"/>
 					</td>
 				</tr>
 							

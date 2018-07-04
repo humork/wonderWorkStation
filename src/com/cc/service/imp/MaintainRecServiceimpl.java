@@ -15,7 +15,7 @@ import com.cc.po.MaintainRec;
 import com.cc.service.IMaintainRecService;
 import com.cc.util.Page;
 
-//保养记录
+//保养记录的实现
 @Service("MaintainRecService")
 public class MaintainRecServiceimpl implements IMaintainRecService{
 	@Autowired

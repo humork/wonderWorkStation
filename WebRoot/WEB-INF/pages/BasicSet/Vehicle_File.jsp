@@ -637,44 +637,44 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<form id="car_addForm" method="post">
 			<table>
 				<tr>
-					<td style="text-align:rigth;">车牌号码：</td>
+					<td>车牌号码：</td>
 					<td>
 						<input id="carNo" name="carNo" maxlength="7" class="easyui-validatebox" data-options="validType:'CHS'">  
 						<!-- <input type="text" name="carNo" maxlength="7" class="easyui-validatebox" data-options="required:true"/> -->
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">品&nbsp;&nbsp;&nbsp;&nbsp;牌：</td>
+					<td>品&nbsp;&nbsp;&nbsp;&nbsp;牌：</td>
 					<td>
 						<input id="carBrand" name="carBrand.id"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">型&nbsp;&nbsp;&nbsp;&nbsp;号：</td>
+					<td>型&nbsp;&nbsp;&nbsp;&nbsp;号：</td>
 					<td>
 						<input id="carModel" name="carModel.id" class="easyui-combobox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">颜&nbsp;&nbsp;&nbsp;&nbsp;色：</td>
+					<td>颜&nbsp;&nbsp;&nbsp;&nbsp;色：</td>
 					<td>
 						<input id="carColor" name="carColor" class="easyui-combobox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">载&nbsp;&nbsp;&nbsp;&nbsp;重（吨）：</td>
+					<td>载&nbsp;&nbsp;&nbsp;&nbsp;重（吨）：</td>
 					<td>
 						<input type="text" name="carLoad"  data-options="min:0,max:99,precision:2" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">座&nbsp;位&nbsp;数：</td>
+					<td>座&nbsp;位&nbsp;数：</td>
 					<td>
 						<input type="text" name="carSeats"  data-options="min:0,max:99" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">油&nbsp;&nbsp;&nbsp;&nbsp;耗（百公里）：</td>
+					<td>油&nbsp;&nbsp;&nbsp;&nbsp;耗（百公里）：</td>
 					<td>
 						<input type="text" name="oilWear"  data-options="min:0,max:99,precision:2" class="easyui-numberbox"/>
 					</td>

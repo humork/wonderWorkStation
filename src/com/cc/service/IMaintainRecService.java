@@ -3,7 +3,7 @@ package com.cc.service;
 import com.cc.po.DataGrid;
 import com.cc.po.MaintainRec;
 
-//保养记录
+//保养记录的增删改查
 public interface IMaintainRecService {
 	/***
 	 * 查询保养信息

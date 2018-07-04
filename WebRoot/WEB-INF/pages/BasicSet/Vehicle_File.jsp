@@ -680,74 +680,74 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">初始里程（公里）：</td>
+					<td>初始里程（公里）：</td>
 					<td>
 						<input type="text" name="initMil" data-options="min:0" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">保养里程（公里）：</td>
+					<td>保养里程（公里）：</td>
 					<td>
 						<input type="text" name="maintainMil" data-options="min:0" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">保养周期（月）：</td>
+					<td>保养周期（月）：</td>
 					<td>
 						<input type="text" name="maintainPeriod" data-options="min:0,max:24" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">发动机号码：</td>
+					<td>发动机号码：</td>
 					<td>
 						<input id="engineNum" name="engineNum" maxlength="8" class="easyui-validatebox" data-options="validType:'engine'">  
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">车&nbsp;架&nbsp;号：</td>
+					<td>车&nbsp;架&nbsp;号：</td>
 					<td>
 						<!-- <input type="text" name="frameNum" maxlength="20"/> -->
 						<input id="frameNum" name="frameNum" maxlength="17" class="easyui-validatebox" data-options="validType:'frame'">
 					</td>
 				</tr>				
 				<tr>
-					<td style="text-align: rigth;">供&nbsp;应&nbsp;商：</td>
+					<td>供&nbsp;应&nbsp;商：</td>
 					<td>
 						<input id="sup" name="sup.id"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">购买价格：</td>
+					<td>购买价格：</td>
 					<td>
 						<input type="text" name="purchasePrice" data-options="min:0,precision:2" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">购买日期：</td>
+					<td>购买日期：</td>
 					<td>
 						<input type="text" id="purchaseDate" name="purchaseDate" class="easyui-datebox" required="required"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">部&nbsp;&nbsp;&nbsp;&nbsp;门：</td>
+					<td>部&nbsp;&nbsp;&nbsp;&nbsp;门：</td>
 					<td>
 						<input id="dept" name="dept.id"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">车辆状态：</td>
+					<td>车辆状态：</td>
 					<td>
 						<input id="carState" name="carState"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">备&nbsp;&nbsp;&nbsp;&nbsp;注：</td>
+					<td>备&nbsp;&nbsp;&nbsp;&nbsp;注：</td>
 					<td>
 						<input type="text" name="remarks" maxlength="50"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">状&nbsp;&nbsp;&nbsp;&nbsp;态：</td>
+					<td>状&nbsp;&nbsp;&nbsp;&nbsp;态：</td>
 					<td>
 						<input type="radio" name="isdisable" value="1" checked="checked" />启用
 						<input type="radio" name="isdisable" value="0" />禁用
@@ -804,115 +804,115 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<td><input type="hidden" name="id"/></td>
 				</tr>
 				<tr>
-					<td style="text-align:rigth;">车牌号码：</td>
+					<td>车牌号码：</td>
 					<td>
 						<input type="text" name="carNo" maxlength="7" disabled="disabled" />
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">品&nbsp;&nbsp;&nbsp;&nbsp;牌：</td>
+					<td>品&nbsp;&nbsp;&nbsp;&nbsp;牌：</td>
 					<td>
 						<input id="carBrand" name="carBrand.id" class="easyui-combobox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">型&nbsp;&nbsp;&nbsp;&nbsp;号：</td>
+					<td>型&nbsp;&nbsp;&nbsp;&nbsp;号：</td>
 					<td>
 						<input id="carModel" name="carModel.id" class="easyui-combobox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">颜&nbsp;&nbsp;&nbsp;&nbsp;色：</td>
+					<td>颜&nbsp;&nbsp;&nbsp;&nbsp;色：</td>
 					<td>
 						<input id="carColor" name="carColor" class="easyui-combobox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">载&nbsp;&nbsp;&nbsp;&nbsp;重（吨）：</td>
+					<td>载&nbsp;&nbsp;&nbsp;&nbsp;重（吨）：</td>
 					<td>
 						<input type="text" id="carLoad" name="carLoad"  data-options="min:0,max:99,precision:2" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">座&nbsp;位&nbsp;数：</td>
+					<td>座&nbsp;位&nbsp;数：</td>
 					<td>
 						<input type="text" id="carSeats" name="carSeats"  data-options="min:0,max:99" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">油&nbsp;&nbsp;&nbsp;&nbsp;耗（百公里）：</td>
+					<td>油&nbsp;&nbsp;&nbsp;&nbsp;耗（百公里）：</td>
 					<td>
 						<input type="text" id="oilWear" name="oilWear"  data-options="min:0,max:99,precision:2" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">初始里程（公里）：</td>
+					<td>初始里程（公里）：</td>
 					<td>
 						<input type="text" id="initMil" name="initMil" data-options="min:0" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">保养里程（公里）：</td>
+					<td>保养里程（公里）：</td>
 					<td>
 						<input type="text" id="maintainMil" name="maintainMil" data-options="min:0" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">保养周期（月）：</td>
+					<td>保养周期（月）：</td>
 					<td>
 						<input type="text" id="maintainPeriod" name="maintainPeriod" data-options="min:0,max:24" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">发动机号码：</td>
+					<td>发动机号码：</td>
 					<td>
 						<input id="engineNum" name="engineNum" maxlength="8" class="easyui-validatebox" data-options="validType:'engine'">
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">车&nbsp;架&nbsp;号：</td>
+					<td>车&nbsp;架&nbsp;号：</td>
 					<td>
 						<input id="frameNum" name="frameNum" maxlength="17" class="easyui-validatebox" data-options="validType:'frame'">
 					</td>
 				</tr>				
 				<tr>
-					<td style="text-align: rigth;">供&nbsp;应&nbsp;商：</td>
+					<td>供&nbsp;应&nbsp;商：</td>
 					<td>
 						<input id="sup" name="sup.id"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">购买价格：</td>
+					<td>购买价格：</td>
 					<td>
 						<input type="text" id="purchasePrice" name="purchasePrice" data-options="min:0,precision:2" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">购买日期：</td>
+					<td>购买日期：</td>
 					<td>
 						<input type="text" id="purchaseDate" name="purchaseDate" class="easyui-datebox" required="required"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">部&nbsp;&nbsp;&nbsp;&nbsp;门：</td>
+					<td>部&nbsp;&nbsp;&nbsp;&nbsp;门：</td>
 					<td>
 						<input id="dept" name="dept.id"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">车辆状态：</td>
+					<td>车辆状态：</td>
 					<td>
 						<input id="carState" name="carState"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">备&nbsp;&nbsp;&nbsp;&nbsp;注：</td>
+					<td>备&nbsp;&nbsp;&nbsp;&nbsp;注：</td>
 					<td>
 						<input type="text" name="remarks" maxlength="50"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">状&nbsp;&nbsp;&nbsp;&nbsp;态：</td>
+					<td>状&nbsp;&nbsp;&nbsp;&nbsp;态：</td>
 					<td>
 						<input type="radio" name="isdisable" value="1" checked="checked" />启用
 						<input type="radio" name="isdisable" value="0" />禁用
@@ -937,115 +937,115 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		}]">
 		<table>
 			<tr>
-				<td style="text-align:rigth;">车牌号码：</td>
+				<td>车牌号码：</td>
 				<td>
 					<span id="carNo"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">车辆品牌：</td>
+				<td>车辆品牌：</td>
 				<td>
 					<span id="carBrand"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">车辆型号：</td>
+				<td>车辆型号：</td>
 				<td>
 					<span id="carModel"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">车辆颜色：</td>
+				<td>车辆颜色：</td>
 				<td>
 					<span id="carColor"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">载&nbsp;重&nbsp;量：</td>
+				<td>载&nbsp;重&nbsp;量：</td>
 				<td>
 					<span id="carLoad"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">座&nbsp;位&nbsp;数：</td>
+				<td>座&nbsp;位&nbsp;数：</td>
 				<td>
 					<span id="carSeats"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">油&nbsp;&nbsp;&nbsp;&nbsp;耗：</td>
+				<td>油&nbsp;&nbsp;&nbsp;&nbsp;耗：</td>
 				<td>
 					<span id="oilWear"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">初始里程：</td>
+				<td>初始里程：</td>
 				<td>
 					<span id="initMil"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">保养里程：</td>
+				<td>保养里程：</td>
 				<td>
 					<span id="maintainMil"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">保养周期：</td>
+				<td>保养周期：</td>
 				<td>
 					<span id="maintainPeriod"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">发动机号：</td>
+				<td>发动机号：</td>
 				<td>
 					<span id=engineNum></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">车&nbsp;架&nbsp;号：</td>
+				<td>车&nbsp;架&nbsp;号：</td>
 				<td>
 					<span id=frameNum></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">供&nbsp;应&nbsp;商：</td>
+				<td>供&nbsp;应&nbsp;商：</td>
 				<td>
 					<span id=sup></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">购买价格：</td>
+				<td>购买价格：</td>
 				<td>
 					<span id=purchasePrice></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">购买日期：</td>
+				<td>购买日期：</td>
 				<td>
 					<span id=purchaseDate></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">部&nbsp;&nbsp;&nbsp;&nbsp;门：</td>
+				<td>部&nbsp;&nbsp;&nbsp;&nbsp;门：</td>
 				<td>
 					<span id=dept></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">车辆状态：</td>
+				<td>车辆状态：</td>
 				<td>
 					<span id=carState></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">备&nbsp;&nbsp;&nbsp;&nbsp;注：</td>
+				<td>备&nbsp;&nbsp;&nbsp;&nbsp;注：</td>
 				<td>
 					<span id="remarks"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">状&nbsp;&nbsp;&nbsp;&nbsp;态：</td>
+				<td>状&nbsp;&nbsp;&nbsp;&nbsp;态：</td>
 				<td>
 					<span id="isdisable"></span>
 				</td>

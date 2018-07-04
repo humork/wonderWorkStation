@@ -13,7 +13,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <title></title>
 	  <style>
 		  td{
-			  text-align: right;
+			  text-align: center;
 		  }
 	  </style>
 	<script type="text/javascript">
@@ -332,7 +332,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<form id="dic_addForm" method="post">
 			<table>
 				<tr>
-					<td style="text-align: rigth;">选择级别：</td>
+					<td>选择级别：</td>
 					<td>
 						<input type="radio" name="lev" value="1" checked="checked"/>1级
 						<input type="radio" name="lev" value="2"/>2级
@@ -340,7 +340,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">上级菜单：</td>
+					<td>上级菜单：</td>
 					<td>
 						<select id="dic_select4" name="dic.id" class="easyui-combobox" style="width:143px;">
 							<option value="-1">无</option>
@@ -348,14 +348,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">是否启用：</td>
+					<td>是否启用：</td>
 					<td>
 						<input type="radio" name="isdisable" value="1" checked="checked"/>启用
 						<input type="radio" name="isdisable" value="0"/>禁用
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">字典文本：</td>
+					<td>字典文本：</td>
 					<td>
 						<input type="text" name="text" maxlength="10"/>
 					</td>
@@ -410,7 +410,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<td></td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">选择级别：</td>
+					<td>选择级别：</td>
 					<td>
 						<input type="radio" name="lev" value="1" checked="checked"/>1级
 						<input type="radio" name="lev" value="2"/>2级
@@ -418,7 +418,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">上级菜单：</td>
+					<td>上级菜单：</td>
 					<td>
 						<select id="dic_select5" name="dic.id" class="easyui-combobox" style="width:143px;">
 							<option value="-1">无</option>
@@ -426,14 +426,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">是否启用：</td>
+					<td>是否启用：</td>
 					<td>
 						<input type="radio" name="isdisable" value="1" checked="checked"/>启用
 						<input type="radio" name="isdisable" value="0"/>禁用
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">字典文本：</td>
+					<td>字典文本：</td>
 					<td>
 						<input type="text" name="text" maxlength="10"/>
 					</td>

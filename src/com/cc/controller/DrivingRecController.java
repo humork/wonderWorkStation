@@ -18,7 +18,7 @@ import com.cc.service.IDrivingRecService;
 import com.cc.util.JsonUtil;
 import com.cc.util.SysStr;
 
-//出车记录
+//出车记录，返回数据web
 @Controller
 @RequestMapping("/driving")
 public class DrivingRecController {

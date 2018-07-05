@@ -299,38 +299,38 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">单位类型：</td>
+					<td>单位类型：</td>
 					<td>
 						<input name="unitType.id" id="unitType"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">地&nbsp;&nbsp;&nbsp;&nbsp;址：</td>
+					<td>地&nbsp;&nbsp;&nbsp;&nbsp;址：</td>
 					<td>
 						<input type="text" name="address"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">电&nbsp;&nbsp;&nbsp;&nbsp;话：</td>
+					<td>电&nbsp;&nbsp;&nbsp;&nbsp;话：</td>
 					<td>
 						<!-- <input type="text" name="tel" maxlength="12"/> -->
 						<input id="phone" name="tel" maxlength="11" class="easyui-validatebox" data-options="validType:'telNum'">
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">联&nbsp;系&nbsp;人：</td>
+					<td>联&nbsp;系&nbsp;人：</td>
 					<td>
 						<input type="text" name="contacts"/>
 					</td>
 				</tr>				
 				<tr>
-					<td style="text-align: rigth;">备&nbsp;&nbsp;&nbsp;&nbsp;注：</td>
+					<td>备&nbsp;&nbsp;&nbsp;&nbsp;注：</td>
 					<td>
 						<input type="text" name="remarks" maxlength="50"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">状&nbsp;&nbsp;&nbsp;&nbsp;态：</td>
+					<td>状&nbsp;&nbsp;&nbsp;&nbsp;态：</td>
 					<td>
 						<input type="radio" name="isdisable" value="1" checked="checked" />启用
 						<input type="radio" name="isdisable" value="0" />禁用
@@ -385,25 +385,25 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<td></td>
 				</tr>
 				<tr>
-					<td style="text-align:rigth;">单位名称：</td>
+					<td>单位名称：</td>
 					<td>
 						<input type="text" name="unitName" maxlength="20"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">单位类型：</td>
+					<td>单位类型：</td>
 					<td>
 						<input name="unitType.id" id="unitType"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">地&nbsp;&nbsp;&nbsp;&nbsp;址：</td>
+					<td>地&nbsp;&nbsp;&nbsp;&nbsp;址：</td>
 					<td>
 						<input type="text" name="address"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">电&nbsp;&nbsp;&nbsp;&nbsp;话：</td>
+					<td>电&nbsp;&nbsp;&nbsp;&nbsp;话：</td>
 					<td>
 						<!-- <input type="text" name="tel" maxlength="12"/> -->
 						<input id="phone" name="tel" maxlength="11" class="easyui-validatebox" data-options="validType:'telNum'">
@@ -416,13 +416,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</td>
 				</tr>				
 				<tr>
-					<td style="text-align: rigth;">备&nbsp;&nbsp;&nbsp;&nbsp;注：</td>
+					<td>备&nbsp;&nbsp;&nbsp;&nbsp;注：</td>
 					<td>
 						<input type="text" name="remarks" maxlength="50"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">状&nbsp;&nbsp;&nbsp;&nbsp;态：</td>
+					<td>状&nbsp;&nbsp;&nbsp;&nbsp;态：</td>
 					<td>
 						<input type="radio" name="isdisable" value="1" checked="checked" />启用
 						<input type="radio" name="isdisable" value="0" />禁用

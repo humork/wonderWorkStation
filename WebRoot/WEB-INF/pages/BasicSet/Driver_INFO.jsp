@@ -134,8 +134,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     				}
     			});
     		});
-    		
-    		
     		//删除按钮单击事件
     		$('#tb_remove').on('click',function(){
     			//未选中提示
@@ -155,7 +153,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					});
 					return;
 				}
-				
 				//主键ID
 				var id=rows[0].id;
 				var params={"id":id};
@@ -269,7 +266,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     }
     </script>
   </head>
-  	
   <body>
     <table id="tab"></table>
     <div id="dri_tb">
@@ -325,74 +321,74 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<form id="dri_addForm" method="post">
 			<table>
 				<tr>
-					<td style="text-align:rigth;">姓&nbsp;&nbsp;&nbsp;&nbsp;名：</td>
+					<td>姓&nbsp;&nbsp;&nbsp;&nbsp;名：</td>
 					<td>
 						<input type="text" name="name" maxlength="20"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">部&nbsp;&nbsp;&nbsp;&nbsp;门：</td>
+					<td>部&nbsp;&nbsp;&nbsp;&nbsp;门：</td>
 					<td>
 						<input id="dept" name="dept.id"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">性&nbsp;&nbsp;&nbsp;&nbsp;别：</td>
+					<td>性&nbsp;&nbsp;&nbsp;&nbsp;别：</td>
 					<td>
 						<input type="radio" name="gender" value="M" checked="checked" />男
 						<input type="radio" name="gender" value="F" />女
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">生&nbsp;&nbsp;&nbsp;&nbsp;日：</td>
+					<td>生&nbsp;&nbsp;&nbsp;&nbsp;日：</td>
 					<td>
 						<input type="text" name="birthday" class="easyui-datebox" required="required"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">身&nbsp;份&nbsp;证：</td>
+					<td>身&nbsp;份&nbsp;证：</td>
 					<td>
 						<input id="card" name="card" maxlength="18" class="easyui-validatebox" data-options="validType:'carNO'">  
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">电&nbsp;&nbsp;&nbsp;&nbsp;话：</td>
+					<td>电&nbsp;&nbsp;&nbsp;&nbsp;话：</td>
 					<td>
 						<input id="phone" name="phone" maxlength="11" class="easyui-validatebox" data-options="validType:'telNum'">
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">入职时间：</td>
+					<td>入职时间：</td>
 					<td>
 						<input type="text" id="entrytime" name="entrytime" class="easyui-datebox" required="required"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">地&nbsp;&nbsp;&nbsp;&nbsp;址：</td>
+					<td>地&nbsp;&nbsp;&nbsp;&nbsp;址：</td>
 					<td>
 						<input type="text" name="address" maxlength="50"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">驾照号码：</td>
+					<td>驾照号码：</td>
 					<td>
 						<input id="card" name="driverNo" maxlength="18" class="easyui-validatebox" data-options="validType:'carNO'">  
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">驾照类型：</td>
+					<td>驾照类型：</td>
 					<td>
 						<input id="driType" name="driverType.id"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">备&nbsp;&nbsp;&nbsp;&nbsp;注：</td>
+					<td>备&nbsp;&nbsp;&nbsp;&nbsp;注：</td>
 					<td>
 						<input type="text" name="remarks" maxlength="50"/>
 					</td>
 				</tr>
 				<tr>
-					<td style="text-align: rigth;">状&nbsp;&nbsp;&nbsp;&nbsp;态：</td>
+					<td>状&nbsp;&nbsp;&nbsp;&nbsp;态：</td>
 					<td>
 						<input type="radio" name="isdisable" value="1" checked="checked" />启用
 						<input type="radio" name="isdisable" value="0" />禁用

@@ -15,7 +15,7 @@ import com.cc.service.IMaintainRecService;
 import com.cc.util.JsonUtil;
 import com.cc.util.SysStr;
 
-
+//插入保养控制器
 @Controller
 @RequestMapping("/MaintainRecController")
 public class MaintainRecController {

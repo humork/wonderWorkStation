@@ -16,7 +16,7 @@ import com.cc.util.JsonUtil;
 import com.cc.util.SysStr;
 
 
-//保险
+//保险信息控制器
 @Controller
 @RequestMapping("/InsuranceRecController")
 public class InsuranceRecController {

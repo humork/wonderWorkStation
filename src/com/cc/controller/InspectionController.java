@@ -15,7 +15,7 @@ import com.cc.util.JsonUtil;
 import com.cc.util.SysStr;
 
 
-
+//车辆信息控制器
 @Controller
 @RequestMapping("InspectionController")
 public class InspectionController {

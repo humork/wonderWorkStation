@@ -269,7 +269,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<tr>
 					<td style="text-align:rigth;">车牌号码：</td>
 					<td>
-						<input type="text" id="car" name="car.id" />
+						<input type="text" id="containercar" name="car.id" />
 					</td>
 				</tr>
 				<tr>
@@ -281,25 +281,25 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<tr>
 					<td style="text-align: rigth;">缴费时间：</td>
 					<td>
-						<input type="text" id="feesDate" name="feesDate" class="easyui-datetimebox" required="required"/>
+						<input type="text" id="feeDate" name="feesDate" class="easyui-datetimebox" required="required"/>
 					</td>
 				</tr>
 				<tr>
 					<td style="text-align: rigth;">缴费金额：</td>
 					<td>
-						<input type="text" id="feesAmount" name="feesAmount" data-options="min:0,precision:2" required="required" class="easyui-numberbox"/>
+						<input type="text" id="feeAmount" name="feesAmount" data-options="min:0,precision:2" required="required" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
 					<td style="text-align: rigth;">收费单位：</td>
 					<td>
-						<input type="text" id="feesUnit" name="feesUnit.id" />
+						<input type="text" id="feeUnit" name="feesUnit.id" />
 					</td>
 				</tr>
 				<tr>
 					<td style="text-align: rigth;">经&nbsp;办&nbsp;人：</td>
 					<td>
-						<input id="operator" name="operator.id"/>
+						<input id="operators" name="operator.id"/>
 					</td>
 				</tr>
 				<tr>

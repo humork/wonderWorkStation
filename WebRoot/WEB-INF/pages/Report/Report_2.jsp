@@ -44,8 +44,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	
     		
     	});
-    	
-    	
 	    //生成饼图
 	   	var chart1;
 	   	function createReport(data,cType){
@@ -94,9 +92,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			 }); 
 	   	}
     </script>
-	
   </head>
-  
   <body>
   	<input type="text" id="car" />
     <form id="form1">  

@@ -3,7 +3,7 @@ package com.cc.service;
 import com.cc.po.DataGrid;
 import com.cc.po.InspectionRec;
 
-
+//年检信息的增删改查
 public interface IInspectionRecService {
 	/***
 	 * 查询年检信息

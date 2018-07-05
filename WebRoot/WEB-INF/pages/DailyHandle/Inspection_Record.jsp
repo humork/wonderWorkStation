@@ -339,37 +339,37 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<tr>
 					<td style="text-align: rigth;">年检日期：</td>
 					<td>
-						<input type="text" id="insDate" name="insDate" class="easyui-datebox" required="required"/>
+						<input type="text" id="containernsDate" name="insDate" class="easyui-datebox" required="required"/>
 					</td>
 				</tr>
 				<tr>
 					<td style="text-align: rigth;">年检金额：</td>
 					<td>
-						<input type="text" id="insAmount" name="insAmount" data-options="min:0,precision:2" required="required" class="easyui-numberbox"/>
+						<input type="text" id="containerAmount" name="insAmount" data-options="min:0,precision:2" required="required" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
 					<td style="text-align: rigth;">年检单位：</td>
 					<td>
-						<input type="text" id="vao" name="vao.id" />
+						<input type="text" id="container" name="vao.id" />
 					</td>
 				</tr>
 				<tr>
 					<td style="text-align: rigth;">下次年检日期：</td>
 					<td>
-						<input type="text" id="expireDate" name="expireDate" class="easyui-datebox" required="required"/>
+						<input type="text" id="Date" name="expireDate" class="easyui-datebox" required="required"/>
 					</td>
 				</tr>
 				<tr>
 					<td style="text-align: rigth;">经&nbsp;办&nbsp;人：</td>
 					<td>
-						<input id="operator" name="operator.id"/>
+						<input id="operators" name="operator.id"/>
 					</td>
 				</tr>	
 				<tr>
 					<td style="text-align: rigth;">年检备注：</td>
 					<td>
-						<input type="text" id="remarks" name="remarks" maxlength="100"/>
+						<input type="text" id="remark" name="remarks" maxlength="100"/>
 					</td>
 				</tr>
 							

@@ -397,25 +397,25 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<tr>
 					<td style="text-align: rigth;">加油总价：</td>
 					<td>
-						<input type="text" readonly="readonly" id="amount" name="amount" data-options="min:0,precision:2" class="easyui-numberbox"/>
+						<input type="text" readonly="readonly" id="mount" name="amount" data-options="min:0,precision:2" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
 					<td style="text-align: rigth;">本次里程（公里）：</td>
 					<td>
-						<input type="text" id="this_mil" name="this_mil" data-options="min:0" class="easyui-numberbox"/>
+						<input type="text" id="thismil" name="this_mil" data-options="min:0" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
 					<td style="text-align: rigth;">上次里程（公里）：</td>
 					<td>
-						<input type="text" readonly="readonly" id="last_mil" name="last_mil" data-options="min:0" class="easyui-numberbox"/>
+						<input type="text" readonly="readonly" id="lastmil" name="last_mil" data-options="min:0" class="easyui-numberbox"/>
 					</td>
 				</tr>
 				<tr>
 					<td style="text-align: rigth;">上次加油（升）：</td>
 					<td>
-						<input type="text" readonly="readonly" id="last_volu" name="last_volu" data-options="min:0,precision:2" class="easyui-numberbox"/>
+						<input type="text" readonly="readonly" id="lastvolu" name="last_volu" data-options="min:0,precision:2" class="easyui-numberbox"/>
 					</td>
 				</tr>				
 				<tr>
@@ -427,7 +427,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<tr>
 					<td style="text-align: rigth;">加油人员：</td>
 					<td>
-						<input id="operator" name="operator.id"/>
+						<input id="operate" name="operator.id"/>
 					</td>
 				</tr>				
 				

@@ -680,7 +680,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">送修时间：</td>
+				<td style="text-align: right;">送修时间：</td>
 				<td>
 					<span id="sendTime"></span>
 				</td>

@@ -15,7 +15,7 @@ import com.cc.po.PeccancyRec;
 import com.cc.service.IPeccancyRecService;
 import com.cc.util.Page;
 
-//违章
+//违章记录
 @Service("PeccancyRecService")
 public class PeccancyRecServiceImpl implements IPeccancyRecService{
 	

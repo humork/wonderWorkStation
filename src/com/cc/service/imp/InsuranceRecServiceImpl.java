@@ -15,7 +15,7 @@ import com.cc.po.InsuranceRec;
 import com.cc.service.IInsuranceRecService;
 import com.cc.util.Page;
 
-//保险
+//保险信息
 @Service("InsuranceRecService")
 public class InsuranceRecServiceImpl implements IInsuranceRecService {
 	@Autowired

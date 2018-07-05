@@ -1,4 +1,4 @@
-package com.cc.controller;
+﻿package com.cc.controller;
 
 import javax.servlet.http.HttpSession;
 
@@ -18,7 +18,7 @@ import com.cc.service.IDrivingRecService;
 import com.cc.util.JsonUtil;
 import com.cc.util.SysStr;
 
-//出车记录
+//出车记录，返回数据web
 @Controller
 @RequestMapping("/driving")
 public class DrivingRecController {
@@ -43,7 +43,7 @@ public class DrivingRecController {
 		return JsonUtil.writeJson(dd,new String[]{"dic","carBrand","carModel","sup","driverType"});
 	}
 	
-	//填充部门下拉列表
+	//填充部门下拉列表，返回给web。
 	@RequestMapping(value="/findDeptList",produces="text/html;charset=utf-8")
 	@ResponseBody
 	public String findDeptList(){

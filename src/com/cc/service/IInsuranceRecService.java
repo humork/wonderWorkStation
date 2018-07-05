@@ -3,7 +3,7 @@ package com.cc.service;
 import com.cc.po.DataGrid;
 import com.cc.po.InsuranceRec;
 
-//保险信息的增删改查
+//保险信息
 public interface IInsuranceRecService {
 	/***
 	 * 查询保险信息

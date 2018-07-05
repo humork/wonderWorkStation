@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aca2e1a1-f513-4b08-b05f-e744025f7791" name="Default" comment="修改样式">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Inspection_Record.jsp" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Inspection_Record.jsp" />
     </list>
     <ignored path="wonderWorkStation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,17 +37,17 @@
         <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Maintain_Record.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="556" column="43" lean-forward="true" selection-start-line="556" selection-start-column="35" selection-end-line="556" selection-end-column="43" />
+              <caret line="556" column="43" lean-forward="false" selection-start-line="556" selection-start-column="35" selection-end-line="556" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Inspection_Record.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Inspection_Record.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Inspection_Record.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="360" column="25" lean-forward="true" selection-start-line="360" selection-start-column="25" selection-end-line="360" selection-end-column="25" />
+            <state relative-caret-position="654">
+              <caret line="371" column="53" lean-forward="true" selection-start-line="371" selection-start-column="53" selection-end-line="371" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -56,17 +57,27 @@
         <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/CarOut_Record.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="56">
-              <caret line="635" column="53" lean-forward="true" selection-start-line="635" selection-start-column="53" selection-end-line="635" selection-end-column="53" />
+              <caret line="635" column="53" lean-forward="false" selection-start-line="635" selection-start-column="53" selection-end-line="635" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fees_Record.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Fees_Record.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Fees_Record.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
-              <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+              <caret line="45" column="41" lean-forward="false" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gas_Record.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Gas_Record.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2668">
+              <caret line="429" column="42" lean-forward="false" selection-start-line="429" selection-start-column="42" selection-end-line="429" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -110,8 +121,9 @@
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Accident_Record.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Repair_Record.jsp" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Inspection_Record.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Fees_Record.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Gas_Record.jsp" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Inspection_Record.jsp" />
       </list>
     </option>
   </component>
@@ -127,6 +139,7 @@
     <option name="width" value="1934" />
     <option name="height" value="1086" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -659,7 +672,7 @@
       <option name="presentableId" value="Default" />
       <updated>1530606474303</updated>
       <workItem from="1530606475395" duration="55000" />
-      <workItem from="1530624655891" duration="4894000" />
+      <workItem from="1530624655891" duration="6411000" />
     </task>
     <task id="LOCAL-00001" summary="修改样式">
       <created>1530625161913</created>
@@ -696,11 +709,25 @@
       <option name="project" value="LOCAL" />
       <updated>1530691173488</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改样式">
+      <created>1530691447229</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1530691447229</updated>
+    </task>
+    <task id="LOCAL-00007" summary="修改样式">
+      <created>1530703314641</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530703314641</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4949000" />
+    <option name="totallyTimeSpent" value="6466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="2" width="1934" height="1086" extended-state="0" />
@@ -711,6 +738,7 @@
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -721,6 +749,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="控制板" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25376344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="设计师" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -818,14 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Gas_Record.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3509">
-          <caret line="362" column="49" lean-forward="false" selection-start-line="362" selection-start-column="49" selection-end-line="362" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -861,7 +882,7 @@
     <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Maintain_Record.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="556" column="43" lean-forward="true" selection-start-line="556" selection-start-column="35" selection-end-line="556" selection-end-column="43" />
+          <caret line="556" column="43" lean-forward="false" selection-start-line="556" selection-start-column="35" selection-end-line="556" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -911,23 +932,15 @@
         <state relative-caret-position="19136">
           <caret line="832" column="27" lean-forward="false" selection-start-line="832" selection-start-column="27" selection-end-line="832" selection-end-column="27" />
           <folding>
-            <marker date="1530691237330" expanded="true" signature="57135:57223" ph="..." />
+            <marker date="1530713392438" expanded="true" signature="54274:54362" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Inspection_Record.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="360" column="25" lean-forward="true" selection-start-line="360" selection-start-column="25" selection-end-line="360" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/CarOut_Record.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
-          <caret line="635" column="53" lean-forward="true" selection-start-line="635" selection-start-column="53" selection-end-line="635" selection-end-column="53" />
+          <caret line="635" column="53" lean-forward="false" selection-start-line="635" selection-start-column="53" selection-end-line="635" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -961,7 +974,23 @@
     <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Fees_Record.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+          <caret line="45" column="41" lean-forward="false" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Gas_Record.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2668">
+          <caret line="429" column="42" lean-forward="false" selection-start-line="429" selection-start-column="42" selection-end-line="429" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/pages/DailyHandle/Inspection_Record.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="371" column="53" lean-forward="true" selection-start-line="371" selection-start-column="53" selection-end-line="371" selection-end-column="53" />
           <folding />
         </state>
       </provider>

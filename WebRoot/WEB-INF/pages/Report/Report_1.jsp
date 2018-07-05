@@ -79,13 +79,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 	data:[25, 30, 50, 98, 52, 40, 10]
                 }] */                  
 			 }); 
-    	}  	
-	 
-	 
+    	}
 	 </script>
-
   </head>
-  
   <body>
     <form id="form1">  
 		<div>  

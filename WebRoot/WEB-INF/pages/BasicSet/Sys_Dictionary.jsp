@@ -39,8 +39,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					}
 				}
 			});
-			
-			
 			//中分类列表选择事件设置开始
 			$('#dic_select2').combobox({
 				onSelect:function(record){//onSelect:在用户选择列表项的时候触发。
@@ -70,7 +68,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					}
 				}
 			});
-			
 			//初始化数据表格开始  
 	    	$('#dic_dg').datagrid({
 	            fitColumns:true,
@@ -95,9 +92,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							}
 					}}
 	            ]]
-	        }); 
-	        
-	       
+	        });
 	        /*填充dg开始***********************************************************/
 	        function initDG($dataGridObj,id){
 	        	//清空一级数据
@@ -110,7 +105,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				//带条件查询dg的数据
 				$dataGridObj.datagrid('load',{pid:id});
 	        }
-	            
 	        /*PID填充下拉列表开始***********************************************************/
 	        function initComboboxByPid($comboboxObj,pid){
 	        	//清空已选
@@ -127,7 +121,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				});
 	        }
 	        /*PID填充下拉列表结束***********************************************************/
-	        
 	        /*LEV填充下拉列表开始***********************************************************/
 	        function initComboboxByLev($comboboxObj,lev,ckId){
 	        	//清空已选
@@ -363,8 +356,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</table>
 			
 		</form>
-	</div> 
-	
+	</div>
 	<!-- 修改窗体创建位置 -->
 	<div id="dic_updDialog" class="easyui-dialog" title="修改字典信息" 
 		style="width:300px;height:250px;align:center;"   
@@ -439,7 +431,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</td>
 				</tr>
 			</table>
-			
 		</form>
 	</div> 	
   </body>

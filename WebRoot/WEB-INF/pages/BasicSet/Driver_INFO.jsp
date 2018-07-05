@@ -535,73 +535,73 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		}]">
 		<table>
 			<tr>
-				<td style="text-align:rigth;">姓&nbsp;&nbsp;&nbsp;&nbsp;名：</td>
+				<td>姓&nbsp;&nbsp;&nbsp;&nbsp;名：</td>
 				<td>
 					<span id="name"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">部&nbsp;&nbsp;&nbsp;&nbsp;门：</td>
+				<td>部&nbsp;&nbsp;&nbsp;&nbsp;门：</td>
 				<td>
 					<span id="dept"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">性&nbsp;&nbsp;&nbsp;&nbsp;别：</td>
+				<td>性&nbsp;&nbsp;&nbsp;&nbsp;别：</td>
 				<td>
 					<span id="gender"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">生&nbsp;&nbsp;&nbsp;&nbsp;日：</td>
+				<td>生&nbsp;&nbsp;&nbsp;&nbsp;日：</td>
 				<td>
 					<span id="birthday"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">身&nbsp;份&nbsp;证：</td>
+				<td>身&nbsp;份&nbsp;证：</td>
 				<td>
 					<span id="card"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">电&nbsp;&nbsp;&nbsp;&nbsp;话：</td>
+				<td>电&nbsp;&nbsp;&nbsp;&nbsp;话：</td>
 				<td>
 					<span id="phone"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">入职时间：</td>
+				<td>入职时间：</td>
 				<td>
 					<span id="entrytime"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">地&nbsp;&nbsp;&nbsp;&nbsp;址：</td>
+				<td>地&nbsp;&nbsp;&nbsp;&nbsp;址：</td>
 				<td>
 					<span id="address"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">驾照号码：</td>
+				<td>驾照号码：</td>
 				<td>
 					<span id="driver_no"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">驾照类型：</td>
+				<td>驾照类型：</td>
 				<td>
 					<span id="driver_type"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">备&nbsp;&nbsp;&nbsp;&nbsp;注：</td>
+				<td>备&nbsp;&nbsp;&nbsp;&nbsp;注：</td>
 				<td>
 					<span id="remarks"></span>
 				</td>
 			</tr>
 			<tr>
-				<td style="text-align: rigth;">状&nbsp;&nbsp;&nbsp;&nbsp;态：</td>
+				<td>状&nbsp;&nbsp;&nbsp;&nbsp;态：</td>
 				<td>
 					<span id="isdisable"></span>
 				</td>

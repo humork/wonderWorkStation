@@ -1,4 +1,4 @@
-package com.cc.controller;
+﻿package com.cc.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -28,7 +28,7 @@ public class DriverController {
 		return JsonUtil.writeJson(idr.findDriverDG(driver),new String[]{"div"});	
 	}
 	
-	//填充部门
+	//填充部门数据，返回给web端
 	@RequestMapping(value="/finddept",produces="text/html;charset=utf-8")
 	@ResponseBody
 	public String finddept(){

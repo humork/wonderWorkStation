@@ -406,13 +406,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<tr>
 					<td style="text-align: rigth;">出车时间：</td>
 					<td>
-						<input type="text" id="begin_time" name="begin_time" class="easyui-datetimebox" required="required"/>
+						<input type="text" id="begintime" name="begin_time" class="easyui-datetimebox" required="required"/>
 					</td>
 				</tr>
 				<tr>
 					<td style="text-align: rigth;">预计回车时间：</td>
 					<td>
-						<input type="text" id="pre_backtime" name="pre_backtime" class="easyui-datetimebox" required="required"/>
+						<input type="text" id="prebacktime" name="pre_backtime" class="easyui-datetimebox" required="required"/>
 					</td>
 				</tr>
 				<tr>
@@ -424,7 +424,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<tr>
 					<td style="text-align: rigth;">驾&nbsp;驶&nbsp;员：</td>
 					<td>
-						<input id="driver" name="driver.id"/>
+						<input id="drivers" name="driver.id"/>
 					</td>
 				</tr>
 				<tr>
@@ -510,13 +510,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<tr>
 					<td style="text-align:rigth;">车牌号码：</td>
 					<td><!--  disabled="disabled" 只读-->
-						<input type="text" id="car" name="car.id" disabled="disabled"/>						
+						<input type="text" id="cars" name="car.id" disabled="disabled"/>
 					</td>
 				</tr>
 				<tr>
 					<td style="text-align: rigth;">部&nbsp;&nbsp;&nbsp;&nbsp;门：</td>
 					<td>
-						<input id="dept" name="dept.id"/>
+						<input id="depts" name="dept.id"/>
 					</td>
 				</tr>
 				<tr>
@@ -528,7 +528,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<tr>
 					<td style="text-align: rigth;">预计回车时间：</td>
 					<td>
-						<input type="text" id="pre_backtime" name="pre_backtime" class="easyui-datetimebox" required="required"/>
+						<input type="text" id="prebacktime" name="pre_backtime" class="easyui-datetimebox" required="required"/>
 					</td>
 				</tr>
 				<tr>
@@ -540,7 +540,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<tr>
 					<td style="text-align: rigth;">驾驶员</td>
 					<td>
-						<input id="driver" name="driver.id" disabled="disabled"/>
+						<input id="driveres" name="driver.id" disabled="disabled"/>
 					</td>
 				</tr>
 				<tr>
